@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner input = new Scanner(new File("Maze.txt"));
+        Scanner input = new Scanner(new File("Maze/Maze.txt"));
         String temp = input.nextLine();
         String[] temporary = temp.split(",");
         int row = Integer.parseInt(temporary[0]), startRow = 0;
