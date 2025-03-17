@@ -42,6 +42,7 @@ public class App {
         System.out.println();
     }
 
+    // Initialize the DFS algorithm
     public static boolean findPath(int row, int column, char[][]floor) {
         if (row < 0 ||  row >= floor.length || column < 0 || column >= floor[0].length) {
             return false;
